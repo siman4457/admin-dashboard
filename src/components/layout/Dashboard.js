@@ -197,4 +197,3 @@ NavBar.propTypes = {
   container: PropTypes.object,
 };
 
-export default NavBar;
