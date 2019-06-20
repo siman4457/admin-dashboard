@@ -1,11 +1,11 @@
 import React from 'react'
+import DataTable from './Manage Orders/DataTable'
+
 
 function Manage_Orders() {
     return (
         <div>
-         <h1>Manage Orderssssssssssssssssssssssssssss</h1>  
-         <h1>Manage Orderssssssssssssssssssssssssssss</h1>  
-         <h1>Manage Orderssssssssssssssssssssssssssss</h1>        
+            <DataTable/>        
         </div>
     )
 }

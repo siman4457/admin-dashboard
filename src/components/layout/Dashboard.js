@@ -19,9 +19,6 @@ import { makeStyles, useTheme } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
 import Home from '../views/Home'
 
-
-
-
  class Dashboard extends Component {
     state = {}
     

@@ -67,15 +67,15 @@ function NavBar(props) {
 
   const drawer = (
     <div>
-      <div className={classes.toolbar} />
+      <div className={classes.toolbar}/>
         <List>
-          <Link to='/home'>
+          <Link to='/home' className="sideNavLinks">
             <ListItem button key={'Home'}>
               <ListItemText primary={'Home'}/>
             </ListItem>
           </Link> 
 
-          <Link to='/manage-orders'>
+          <Link to='/manage-orders' className="sideNavLinks">
             <ListItem button key={'Manage Orders'}>
               <ListItemText primary={'Manage Orders'}></ListItemText> 
             </ListItem>
